@@ -38,7 +38,7 @@ Ce service utilise l'image Docker Postgres avec une persistance des données via
 ### dataquality-back
 Ce service utilise l'image Docker du back de Data-Quality à récupérer sur l'ECR AWS ainsi que le fichier `.env.back`
 ### dataquality-front
-Ce service utilise l'image Docker du front de Data-Quality à récupérer sur l'ECR AWS ainsi que le fichier `.env.front`
+Ce service utilise l'image Docker du front de Data-Quality à récupérer sur l'ECR AWS. Attention à bien modifier le chemin de l'image avec votre nom de client.
 ### dataquality-avro
 Ce service utilise l'image Docker du convertisseur Avro à récupérer sur l'ECR AWS ainsi que le fichier `.env.avro`
 ### dataquality-integrator
