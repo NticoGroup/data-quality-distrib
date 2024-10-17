@@ -25,7 +25,7 @@ Ce dossier contient les différents éléments spécifiques à chaque installati
 - config.js
 - spec.css
 
-default_banner.png et default_logo.png sont le logo et la bannière, vous pouvez les modifier en remplacant les images par les votre en gardant le même nom de fichier.
+default_banner.png et default_logo.png sont la bannière et le logo, vous pouvez les modifier en remplacant les images par les vôtres en gardant le même nom de fichier.
 
 config.js contient l'url du back à modifier.
 
