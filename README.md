@@ -17,6 +17,20 @@ Modifiez les fichiers `.env` des différents services. Attention : certaines inf
 
 Renseignez la clé publique de votre serveur SFTP dans le fichier `known_hosts`
 
+### Dossier specific
+
+Ce dossier contient les différents éléments spécifiques à chaque installation.
+- default_banner.png
+- default_logo.png
+- config.js
+- spec.css
+
+default_banner.png et default_logo.png sont le logo et la bannière, vous pouvez les modifier en remplacant les images par les votre en gardant le même nom de fichier.
+
+config.js contient l'url du back à modifier.
+
+spec.css permet de surcharger le css de l'application.
+
 ### Token AWS
 Assurez-vous de disposer d'un token de connexion pour récupérer les images Docker depuis l'ECR d'AWS.
 
