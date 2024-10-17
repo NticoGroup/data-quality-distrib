@@ -56,7 +56,7 @@ services:
       - "8082:8082"
       
   dataquality-front:
-    image: 249258753394.dkr.ecr.eu-west-3.amazonaws.com/ntico/data-quality/front/clientName:latest
+    image: 249258753394.dkr.ecr.eu-west-3.amazonaws.com/ntico/data-quality/front:latest
     container_name: dataquality-front
     env_file:
       - .env.front
