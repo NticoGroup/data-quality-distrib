@@ -26,6 +26,7 @@ services:
       - dataquality-network
     volumes:
       - ./known_hosts:/app/known_hosts
+      - ./security:/app/security
     ports:
       - "8081:8081"
       
@@ -62,6 +63,7 @@ services:
       - dataquality-back
     volumes:
       - ./specific:/usr/share/nginx/html/specific
+      - ./specific_http:/usr/nginx
     networks:
       - dataquality-network
     ports:
